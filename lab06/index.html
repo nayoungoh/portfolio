@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nayoung Oh | Simple Photo Gallery</title>
+<style>
+	body{
+		background-image: url('img/keghan-crossland-ZZxmc66SjfM-unsplash.jpg');
+		background-repeat: no-repeat;
+	 	height: auto;
+	 	background-size: cover;
+	}
+	#header{
+		text-align: center;
+		padding:20px;
+		font-size: 40px;
+		color: #FEFBF6;
+		text-decoration: underline overline;
+		text-decoration-color: #EED3D9;
+		line-height: 2.5;
+	 	font-family: Bodoni MT, serif;
+	}
+	#wrapper{
+		width: 	950px;
+		margin: 0 auto;
+		background-color: rgba(0, 0, 0, 0.3);
+		font-family: "Barlow", sans-serif;
+	}
+	.thumbnail{
+		width: 260px;
+		height: auto;
+		margin: 28px;
+	}
+	.thumbnail-container{
+		float: left;
+		text-align: center;
+ 	}
+	.thumbnail-container p{
+		visibility: hidden;
+		font-size: 15px;
+		color: white;
+	}
+	.thumbnail-container:hover p{
+		visibility: visible;
+	}	
+	.portrait{
+		width: 100%;
+		height: auto;
+	}
+	.clearfloat{
+		clear: both;
+	}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+		<h1>My Café Havens</h1>			
+		</div>
+		<div id="content">
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/bookandrest.jpeg" alt="Book and Rest Café">
+				</div>
+				<p>Book and Rest | Seoul, Korea</p>	
+			</div>
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/stonestreet.jpeg" alt="Stone Street Café">
+				</div>
+				<p>Stone Street Café | New York, NY</p>	
+			</div>
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/memorylook.jpeg" alt="Memorylook Coffee">
+				</div>
+				<p>Memorylook Coffee | Los Angeles, CA</p>	
+			</div>			
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/bwe_kafe.jpeg" alt="bwe_kafe">
+				</div>
+				<p>Bwè Kafe | Hoboken, NJ</p>
+			</div>		
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/devocion.jpeg" alt="Devoción Coffee">
+				</div>
+				<p>Devoción Coffee | Brooklyn, NY</p>	
+			</div>			
+			<div class="thumbnail-container">
+				<div class="thumbnail">
+					<img class="portrait" src="img/butler.jpeg" alt="Butler Cafe">
+				</div>
+				<p>Butler Cafe | New York, NY</p>	
+			</div>
+			</div>	
+		<div class="clearfloat"></div>	
+	</div>
+</body>
+</html>

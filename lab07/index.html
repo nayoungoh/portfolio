@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nayoung Oh | Image Puzzle</title>
+<style>
+	@font-face{
+		font-family: "MOURGEN";
+		src: url(font/MOURGEN.otf);
+	}
+	body{
+		background-image: url(img/maximilian-zahn-tDM5glYRQi0-unsplash.jpg);
+		background-size: cover;
+	}
+	h1{
+		text-align: center;
+		font-family: MOURGEN, serif;
+		color: #3a0ca3;
+		font-weight: bolder;
+		font-size: 45px;
+		text-shadow: 5px 5px #eddea4;
+	}
+	#gallery{
+		width: 450px;
+		height: 600px;
+		margin: 0 auto;
+		padding: 25px 100px;
+		background: #F6F5F580;
+		border-radius: 15%;
+	}
+	.thumbnail{
+		width: 150px;
+		height: 200px;
+		float: left;
+		overflow: visible;
+		position: relative;
+	}
+	.thumbnail > img{
+		width: 100%;
+		height: auto;
+	}
+	.clearfloat{
+		clear: both;
+	}
+	.pz11{
+		position: absolute;
+		top: 15px;
+		left: 10px;
+		box-shadow: 0px 0px 5px 5px #212529;
+		z-index: 1;
+	}
+	.pz13{
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		box-shadow: 0px 0px 5px 5px #212529;
+		z-index: 2;
+	}
+	.pz22{
+		position: absolute;
+		top: 5px;
+		box-shadow: 0px 0px 5px 5px #212529;
+		z-index: 5;
+	}
+	.pz23{
+		position: absolute;
+		right: -10px;
+		box-shadow: 0px 0px 5px 5px #212529;
+	}
+	.pz31{
+		position: absolute;
+		left: 25px;
+		bottom: 10px;
+		box-shadow: 0px 0px 5px 5px #212529;
+		z-index: 4;
+	}
+	.pz33{
+		position: absolute;
+		right: -15px;
+		bottom: 10px;
+		box-shadow: 0px 0px 5px 5px #212529;
+		z-index: 3;
+	}		 
+</style>
+</head>
+<body>
+<h1>A Day in Paris</h1>
+<div id="gallery">
+	<div id="container">
+		<div class="thumbnail"> 
+		<img src="img/row-1-column-1.jpg" alt="row-1-column-1" class="pz11">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-1-column-2.jpg" alt="row-1-column-2">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-1-column-3.jpg" alt="row-1-column-3" class="pz13">
+		</div>
+
+		<div class="thumbnail"> 
+		<img src="img/row-2-column-1.jpg" alt="row-2-column-1">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-2-column-2.jpg" alt="row-2-column-2" class="pz22">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-2-column-3.jpg" alt="row-2-column-3" class="pz23">
+		</div>
+
+		<div class="thumbnail"> 
+		<img src="img/row-3-column-1.jpg" alt="row-3-column-1" class="pz31">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-3-column-2.jpg" alt="row-3-column-2">
+		</div>
+		<div class="thumbnail"> 
+		<img src="img/row-3-column-3.jpg" alt="row-3-column-3" class="pz33">
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</div>
+
+
+</body>
+</html>

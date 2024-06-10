@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nayoung Oh | Final Project</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+<style>
+ 
+	h1{
+		color: white;
+		font-size: 70px;
+	}
+
+	.desc p{
+		padding: 50px 20px; 
+		font-family: 'BalanceGroovy',sans-serif;
+		width: 80%;
+		font-size: 18px;
+		margin: -45px auto;
+		margin-bottom: 25px;
+	}
+
+	[data-scroll] {
+		opacity: 0;
+		transition: all 3s;
+	}
+	
+	[data-scroll="in"] {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	
+	[data-scroll="out"] {
+		opacity: 0;
+		transform: translateY(600px);
+	}
+
+	.main{
+		background: white;
+		width: 80%;
+		margin: 0 auto;
+	}
+	img{
+		width: 600px;
+		height: auto;
+		padding: 40px 20px 30px 20px;
+		float: left;
+	}	
+	.pdf{
+		color: pink;
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+	<h1>Seoul</h1>
+	</div>
+
+<div id="nav">
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="rec.html">Recommendation</a>
+		<ul>
+			<li><a href="rec.html#gn">Gangnam</a></li>
+			<li><a href="rec.html#jn">Jongno</a></li>
+			<li><a href="rec.html#jg">Jung-gu</a></li>
+		</ul>	
+		</li>
+		<li><a href="inq.html">Tips</a></li>
+	</ul>
+	<div class="clearfloat"></div>
+</div>
+
+<div id="content">
+<div class="container">
+	<div class="mx-auto" style="width:50%;">
+	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pic1.jpg" class="d-block w-100" alt="Seoul-N Tower">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic2.jpg" class="d-block w-100" alt="Two girls wearing Hanbok">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic3.jpg" class="d-block w-100" alt="Yangjaecheon stream">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic4.jpg" class="d-block w-100" alt="Starfield Library">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic5.jpg" class="d-block w-100" alt="Han River">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic6.jpeg" class="d-block w-100" alt="Yanghwa Han River Park">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pic7.jpg" class="d-block w-100" alt="Gwanghwamun">
+    </div>                
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<div class="desc">
+	<p data-scroll>Seoul is a vibrant, dynamic metropolis that seamlessly blends ancient traditions with modern innovation. As the capital of South Korea, it pulsates with energy, offering visitors a rich tapestry of experiences to explore.</p>
+	<p data-scroll>Seoul is also a city that never sleeps, with a buzzing nightlife scene that caters to every taste. Whether you're into trendy clubs, cozy jazz bars, or traditional Korean pubs known as "Po-cha", you'll find plenty of options to keep you entertained until the early hours.</p>
+	<p data-scroll>Beyond its urban sprawl, Seoul is surrounded by natural beauty waiting to be explored. Take a hike up Namsan Mountain for panoramic views of the city, or escape to the serene beauty of the Han River Park for a relaxing stroll or bike ride.</p>
+	<p data-scroll>In essence, Seoul is a city of contrasts and endless possibilities. With its unique blend of history, culture, cuisine, and modernity, it offers something for every type of traveler, making it a truly unforgettable destination.</p>
+	<p data-scroll>Seoul beckons you with its blend of tradition and modernity, offering vibrant street markets, historic palaces, and cutting-edge technology. Explore diverse flavors, from street food to fine dining, and dive into the dynamic nightlife. With efficient public transport and welcoming locals, Seoul promises an unforgettable adventure, blending the past and the present in an electrifying cityscape.</p>
+	<p data-scroll><strong>Visit <a href="https://english.seoul.go.kr/" target="_blank">Seoul</a> Today!</strong><br>
+		<a class="pdf" href="pdf/ITP104FinalProject.pdf" target="_blank">Project Summary Document</a>
+	</p>
+	
+	<div class="clearfloat"></div>
+</div>
+
+	<div id="footer">
+		<p>&copy; 2024 Nayoung Oh</p>
+	</div>
+<script> 
+	ScrollOut({
+  	offset:.8
+  })
+</script>
+</body>
+</html>

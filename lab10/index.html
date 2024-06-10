@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Nayoung Oh | Animation</title>
+<style>
+	body{
+		background-image: url(img/home.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#title{
+		position: relative;
+	}
+	.logo{
+		width: 400px;
+		display: block;
+		margin-top: 50px;
+		left: 550px;
+		transition: all 1s linear;
+		position: absolute;
+	}
+	.logo:hover{
+		transform: rotate(360deg) scale(1.5) ;
+	}
+	.mouse{
+		width: 43px;
+		position: absolute;
+		left: 912px;
+		top: 110px;
+	}
+
+	p{
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+		font-style: italic;
+		margin: 10px 15px;
+	}
+	.speech-bubble{
+		border: 5px solid white;
+		border-radius:15px;
+		width: 100px;
+		background: white;
+		position: absolute;
+		bottom: 170px;
+		right: -30px;
+	}
+	.speech-bubble:after{
+		content: "  ";
+		position: absolute;
+		border: 11px solid white;
+		bottom: -20px;
+		left: 60px;
+		border-bottom-right-radius: 100%;
+	}
+	#container img{
+		height: 200px;
+		width: auto;
+	}
+	#container{
+		position: relative;
+		top: 480px;
+		display: inline-block;
+		animation: move 3s ease infinite;
+			}
+	@keyframes move{
+		0% {left: 0px; transform: translate(0px);}
+		100% {right: 0px; transform: translate(920px);}
+	}
+</style>
+</head>
+<body>
+
+<div id="title">
+<a href="https://play.max.com/show/a500fccc-7dbe-45fb-91d4-023deb64bbc0" target="_blank"><img class="logo" src="img/logo.png" alt="Tom and Jerry Logo"></a>
+<img class="mouse" src="img/mouse.gif" alt="mouse clicking gif">
+</div>
+
+<div id="container">
+	<div class="speech-bubble"><p>Run!</p></div>
+	<div class="gif">
+	<img src="img/tomandjerry.gif" alt="Tom chasing Jerry">
+	</div>
+</div>
+
+</body>
+</html>

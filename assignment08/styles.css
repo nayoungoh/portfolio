@@ -1,0 +1,55 @@
+@font-face{
+	font-family: Munday;
+	src: url(font/Themundayfreeversion-Regular.ttf);
+}
+#nav{
+	padding-top: 10px;
+	background-color: #ffffff;
+	margin: 0 auto; /*centering the div*/
+	font-size: 0; /*get rid of the inline-blocks white spacing*/	
+  	position: relative;
+}
+#nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li{
+	margin: 0 6px;
+	width: 490px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	background-color: #DC8686; 
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+}
+#nav li:hover{
+	background-color: #F3D0D7;
+	opacity: 95%;
+}
+#nav a{
+	text-decoration: none; /*get rid of the underline*/
+	color: #FEFBF6;
+	display: block;
+	font-family: "Munday", serif;
+}
+
+#nav a:hover {
+	background-color: #F5EDED;
+	color: #B47B84;
+}
+#nav ul ul{
+	left: -6px;
+	top: 40px;
+	visibility: hidden;
+	position: absolute;
+}
+#nav li:hover > ul{
+	visibility: visible;
+}
+#nav .active{
+	background-color: #86A789;
+	color: #FEFBF6;
+}

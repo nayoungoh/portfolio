@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nayoung Oh | Gallery</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<style>
+	#header{
+		background-image: url("glr/Phoebe-Waller-Bridge-Fleabag.jpg");
+		height: 600px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin: 0 auto;
+	}
+	h1 {
+		color: floralwhite;
+		font-size: 130px;
+	    text-align: center;
+	    line-height: 900px;
+		vertical-align: bottom;
+	}
+	#gallery {
+		margin: 0 6%;
+	}
+	.thumbnail {
+		margin: 10px 5px;
+		height: 175px;
+		width: auto;
+		overflow: hidden;
+		position: relative;	
+		z-index: 1; /*dropdown menu overlaps thumbnails-see style.css line 71*/
+	}
+	.overlay{
+		background: rgba(0, 0, 0, 0.3);
+		color: white;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		text-align: center;
+		padding-top: 70px;
+		visibility: hidden;
+	}
+	.thumbnail:hover .overlay{
+		visibility: visible;
+	}
+	.thumbnail-container{
+		float: left;
+		text-align: center;
+	}
+	.row1, .row2 {
+		width: 310px;
+		height: 175px;
+		overflow: hidden;
+		object-fit: cover; /*make thumbnails equal heights*/
+	}
+	.row3{
+		width: 230px;
+		height: 175px;
+		object-fit: cover; /*make thumbnails equal heights*/
+	}
+
+</style>
+</head>
+<body>
+<div id="header">
+	<h1>Gallery</h1>
+</div>
+<div id="nav">
+	<ul>
+		<li><a href="index.html">Home</a>
+		<ul>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#bg">Background</a></li>
+			<li><a href="index.html#ep">Episodes</a></li>
+		</ul>	
+		</li>	
+		<li><a class="active" href="gallery.html">Gallery</a></li>
+	</ul>
+	<div class="clearfloat"></div>
+</div>	
+
+
+<div id="container">
+<!-- Gallery Content -->
+	<div id="gallery">
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row1" src="gif/giphy.gif" alt="Fleabag saying this is a love story">
+				<div class="overlay">"This is a love story."</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row1" src="gif/floreyonce.gif" alt="Fleabag gasping reading the Bible">
+				<div class="overlay">"Gasp"</div>
+			</div>			
+		</div>				
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row1" src="gif/8kfZ.gif" alt="Harry showing he knows">
+				<div class="overlay">'Yeah, I know.'</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row2" src="gif/fleabag-laughs.gif" alt="Fleabag's change of facial expression">
+				<div class="overlay">'Haha. Ew.'</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row2" src="gif/fleabag-pencil.gif" alt="Claire with a pencil-looking haircut">
+				<div class="overlay">"I look like a Pencil!"</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row2" src="gif/floreyonce-fleabag.gif" alt="Fleabag winking">
+				<div class="overlay">'Wink'</div>
+			</div>
+		</div>									
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row3" src="glr/fb_104_00795_f.jpg" alt="Fleabag and Claire"><div class="overlay">"Your flagrant lack of respect is affecting other students"<br> "You mean inmates?"</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row3" src="glr/23c1914f7a7db64dea192ce35c2df10d22-Phoebe-Waller-Bridge-04.h473.w710.jpg" alt="Fleabag and Boo">
+				<div class="overlay">'Singing "Every Promise"'</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row3" src="glr/Fleabag-2-FT-BLOG0519-e7286d2d6f9940848f75835ecb10dfa7.jpg" alt="Stepmom">
+				<div class="overlay">"Where's your little doggy thing, Father?"</div>
+			</div>
+		</div>
+		<div class="thumbnail-container">
+			<div class="thumbnail">
+				<img class="row3" src="gif/fleabag-fleabag-hair.gif" alt="Fleabag with perfect hair">
+				<div class="overlay">"No matter what I do,<br> my hair is just PERFECT!"</div>
+			</div>
+		</div>									
+	</div>
+	<div class="clearfloat">
+</div>
+</div>
+<div id="footer">
+	<p><a href="https://www.amazon.com/gp/video/detail/B0875LZHVG/ref=atv_dp_season_select_s1?jic=8%7CEgNhbGw%3D" target="_blank">Watch it on Prime Video</a></p>
+</div>
+</body>
+</html>

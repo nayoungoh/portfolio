@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nayoung Oh | Calendar</title>
+		<style>
+			body{
+				background-color: #99B080;
+				margin: 0px;
+				font-family: "Garamond", serif;
+			}
+			#container{
+				width: 950px;
+				margin: 30px auto;
+			}
+			#header{
+				background-image: url(img/IMG_7671.jpeg);
+				background-repeat: no-repeat;
+				height: 400px;
+				background-size: cover;
+				background-position: 45% 60%;
+				text-align: center;
+			}
+			h1{
+				font-size: 100px;
+				margin: 0;
+				line-height: 400px;
+				color: #E8C872;		
+				text-decoration: underline overline #637A9F;
+				text-shadow: 5px 5px 5px dimgray;
+			}
+			table{
+				text-align: center;
+				border-collapse: collapse;
+			}
+			th{
+				font-size: 23px;
+				border: 1px solid black;
+				padding: 0px 10px;
+				background-color: #FFF3CF;
+				/* width cal.: (950-(7*1))/7=134.71 =~134 */
+				width: 134px;
+			}
+			td{
+				font-size: 18px;
+				border: 1px solid #637A9F;
+				text-align: right;
+				vertical-align: top; /*dates top corner*/
+				width: 134px;
+				height: 134px;
+				background-color: #FFF7F1;
+			}
+			.notjune{
+				color: #B9B4C7;
+				background-color: #EBD9B4;
+			}
+			#choco{
+				background-image: url(img/cadenc-_moving-5KKldJx02xo-unsplash.jpg);
+				background-size: 130%;
+				background-position: 50% 75%;
+				color: #9A031E;
+				font-weight: bold;
+			}
+			#choco p{
+				color: #F8F0E5;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px 0px;
+				background-color: rgba(0,0,0,1);
+				opacity: 0.5;
+				font-size: 15px;				
+				}
+			#icedtea{
+				background-image: url(img/ben-moreland-rALeKuOlfK8-unsplash.jpg);
+				background-size: cover;
+				background-position: 80% 65%;
+				color: #9A031E;
+				font-weight: bold;
+			}
+			#icedtea p{
+				color: #F8F0E5;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px 0px;
+				background-color: rgba(0,0,0,1);
+				opacity: 0.5;
+				font-size: 18px;
+				}
+			#bday{
+				background-image: url(img/pexels-tima-miroshnichenko-5804902.jpg);
+				background-size: cover;
+				background-position: 80% 65%;
+				color: #9A031E;
+				font-weight: bold;
+			}
+			#bday p{
+				color: #F8F0E5;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px 0px;
+				background-color: rgba(0,0,0,1);
+				opacity: 0.5;				
+				}				
+		</style>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>June 2024</h1>
+			</div>
+			<table>
+				<tr>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<td class="notjune">26</td>
+					<td class="notjune">27</td>
+					<td class="notjune">28</td>
+					<td class="notjune">29</td>
+					<td class="notjune">30</td>
+					<td class="notjune">31</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td id="choco">7<p>National Chocolate Ice Cream Day</p></td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td id="icedtea">10<p>National Iced Tea Day</p></td>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td id="bday">23<p>Nayoung's Birthday</p></td>
+					<td>24</td>
+					<td>25</td>
+					<td>26</td>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+				</tr>
+				<tr>
+					<td>30</td>
+					<td class="notjune">1</td>
+					<td class="notjune">2</td>
+					<td class="notjune">3</td>
+					<td class="notjune">4</td>
+					<td class="notjune">5</td>
+					<td class="notjune">6</td>
+				</tr>								
+			</table>
+			
+		</div>	
+
+
+	</body>
+</html>
